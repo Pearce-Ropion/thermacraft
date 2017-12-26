@@ -1,0 +1,1 @@
+<div class="footer_title">Thermacraft</div>

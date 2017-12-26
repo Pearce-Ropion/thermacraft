@@ -1,0 +1,57 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: rgb(39, 41, 47);
+}
+#game {
+	padding-top: 150px;
+	margin: auto;
+	width: 50%;
+}
+#gamewrapper, #gamewindow {
+	margin: auto;
+}
+#gamewindow {
+	background-color: #999999;
+	border: 1px transparent;
+	border-radius: 20px;
+	padding: 40px;
+}
+button.box {
+    background-color: #404040;
+    height: 80px;
+    width: 80px;
+	margin: 10px;
+	border: 1px transparent;
+	border-radius: 10px;
+	font-size: 65px;
+	color: white;
+	padding: -5px, 0, 5px, 0;
+}
+button.box:hover {
+	background-color: #595959;
+	cursor: pointer;
+}
+#btnwrapper {
+	text-align: center;
+	padding-top: 40px;
+	margin: auto;
+}
+#scorewrapper,#scorecounter, {
+	display: hidden;
+}
+button.ctlbutton {
+	padding: 5px 55px;
+	background-color: #737373;
+	border: 1px transparent;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	color: white;
+	font-size: 20px;
+}
+button.ctlbutton:hover {
+	background-color: #999999;
+	cursor: pointer;
+}
